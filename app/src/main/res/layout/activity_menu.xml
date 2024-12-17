@@ -1,0 +1,38 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Employee"
+        android:background="#DEAA79"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/searchbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Employee"
+        android:background="#B1C29E"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logoutbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:background="#659287"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+
+
+        />
+</LinearLayout>
